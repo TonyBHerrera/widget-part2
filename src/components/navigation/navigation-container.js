@@ -8,33 +8,31 @@ class NavigationContainer extends React.Component {
 
     render() {
         return (
-            <div className="nav-wrapper">
-                <div className="nav-link-wrapper">
-                    <NavLink exact to="/">
-                        Home
+            <div className="nav-link-wrapper">
+                <NavLink exact to="/">
+                    Home
                 </NavLink>
-                    <NavLink exact to="/lottery">
-                        Kinda lottery
+                <NavLink exact to="/lottery">
+                    Kinda lottery
                 </NavLink>
-                    <NavLink exact to="/remove-first-last">
-                        remove first and last
+                <NavLink exact to="/remove-first-last">
+                    remove first and last
                 </NavLink>
-                    <NavLink exact to="/thing">
-                        Thing one
+                <NavLink exact to="/thing">
+                    Thing one
                 </NavLink>
-                    <NavLink exact to="/thing2">
-                        Thing Two
+                <NavLink exact to="/thing2">
+                    Thing Two
                 </NavLink>
-                    <NavLink exact to="/thing3">
-                        Thing Three
+                <NavLink exact to="/thing3">
+                    Thing Three
                 </NavLink>
-                    <NavLink exact to="/thing4">
-                        Thing Four
+                <NavLink exact to="/thing4">
+                    Thing Four
                 </NavLink>
-                    <NavLink exact to="/thing5">
-                        Thing Five
+                <NavLink exact to="/thing5">
+                    Thing Five
                 </NavLink>
-                </div>
             </div>
 
         )

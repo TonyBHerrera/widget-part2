@@ -1,25 +1,19 @@
-.body {
+body {
     padding: 0px;
     margin: 0px;
 }
 
-.nav-wrapper {
-    width: 100%;
-
-}
 
 .nav-link-wrapper {
     display: flex;
-    justify-content: space-between;
-    height: 30px;
-    width: 100vw;
-    padding-top: 10px;
-    border-bottom: 1px solid transparent;
+    justify-content: space-around;
+    height: 40px;
+    border-bottom: 1px solid black;
     transition: 0.1s ease-in-out;
     text-transform: capitalize;
     font-size: 20px;
     padding-bottom: 0px;
-    margin-top: 10px;
+
 
     a {
         color: black;
@@ -27,6 +21,7 @@
 
         &:hover {
             color: grey;
+            // background-color: lightgrey;
         }
     }
 }
